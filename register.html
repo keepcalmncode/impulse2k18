@@ -1,121 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>REGISTER</title>
-<!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Registration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!--===============================================================================================-->
 </head>
-<body bgcolor="#18ffff">
+<body>
 
-<nav>
-    <div class="nav-wrapper grey">
-	  
-      <a href="#" class="brand-logo center">IMPULSE 2K18</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-	    
-	  <li><a href="home.html" class="waves-effect waves-light btn"><i class="material-icons left">arrow_back</i>BACK</a></li>
-      </ul>
-    </div>
-  </nav><br><br>
 
- <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">Name</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Phone</label><br><br><br><br>
-        </div>
-        <div class="input-field col s6">
-		   <i class="material-icons prefix">contact_mail</i>
-          <input id="email" type="email" class="validate">
-          <label for="email" data-error="wrong" data-success="right">Email</label>
-        </div>
-		<div class="input-field col s6">
-		   <i class="material-icons prefix">account_balance</i>
-          <input id="email" type="text" class="validate">
-          <label for="email" data-error="wrong" data-success="right">College</label><br><br><br><br>
-        </div>
-		
-		 <div class="input-field col s4">
-			<select>
-			<option value="" disabled selected>Choose your option</option>
-			<option value="1">Option 1</option>
-			<option value="2">Option 2</option>
-			<option value="3">Option 3</option>
-			</select>
-			<label>First Event</label>
-         </div>
-		  <div class="input-field col s4">
-			<select>
-			<option value="" disabled selected>Choose your option</option>
-			<option value="1">Option 1</option>
-			<option value="2">Option 2</option>
-			<option value="3">Option 3</option>
-			</select>
-			<label>Second Event</label>
-         </div>
-		  <div class="input-field col s4">
-			<select>
-			<option value="" disabled selected>Choose your option</option>
-			<option value="1">Option 1</option>
-			<option value="2">Option 2</option>
-			<option value="3">Option 3</option>
-			</select>
-			<label>Third Event</label><br><br><br><br><br>
-         </div>
-		 <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-             <i class="material-icons right">send</i>
-         </button>
-      </div>
-    </form>
-  </div>
-  <br><br><br><br>
-  <footer class="page-footer">
-    <div class="container">
-        <div class="row">
+	<div class="container-contact100">
+		<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
 
-            <div class="input-field col s10">
-                <h5 class="white-text">About Us</h5>
-                <p class="grey-text text-lighten-4">Let </p>
-            </div>
-            <div class="input-field col s2">
-                <a href="#" target="_blank">
-                    <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-256.png">
-                </a>
+		<div class="wrap-contact100">
+			<div class="contact100-form-title" style="background-image: url(img/bg-01.jpg);">
+				<span class="contact100-form-title-1">
+					Register Yourself ## for the event
+				</span>
 
-            </div>
-            <div class="input-field col s2"></div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            <h5>a catchy line</h5>
-        </div>
-    </div>
-</footer>
- 
+				<span class="contact100-form-title-2">
+					Feel the Zeal of Impulse
+				</span>
+			</div>
 
- <!--Import jQuery before materialize.js-->
- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
- <script type="text/javascript" src="js/materialize.min.js"></script>
- <script>
-    $(document).ready(function(){
-  $(".dropdown-button").dropdown();
-      $('.slider').slider();
-	  $('.modal').modal();
-	   $('select').material_select();
-    });
-   </script>
+			<form class="contact100-form validate-form">
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Full Name:</span>
+					<input class="input100" type="text" name="name" placeholder="Enter full name">
+					<span class="focus-input100"></span>
+				</div>
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">Email:</span>
+					<input class="input100" type="text" name="email" placeholder="Enter email addess">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Phone is required">
+					<span class="label-input100">Phone:</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter phone number">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "College name is required">
+					<span class="label-input100">College Name:</span>
+					<input class="input100" name="college_name" placeholder="Give your college name"></input>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="js/map-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="js/mainRegister.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
 </body>
 </html>
