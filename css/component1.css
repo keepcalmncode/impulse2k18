@@ -1,0 +1,98 @@
+/* Common styles */
+
+.pricing {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto 3em;
+}
+
+.pricing__item {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
+}
+
+.pricing__feature-list {
+	text-align: left;
+}
+
+.pricing__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.pricing__action:focus {
+	outline: none;
+}
+
+/* Individual styles */
+
+/* Dawa */
+.pricing--dawa .pricing__item {
+	padding: 0 2em;
+}
+
+.pricing--dawa .pricing__title {
+	font-weight: bold;
+	font-size: 1.8em;
+	padding: 0 0 0.5em;
+	background: url(../img/line.png) no-repeat 50% 100%;
+}
+
+.pricing--dawa .pricing__price {
+	font-size: 3.75em;
+	line-height: 1;
+	margin: 1em 0 0.65em;
+	font-family: 'Homemade Apple', cursive;
+}
+
+.pricing--dawa .pricing__period {
+	font-size: 0.25em;
+	display: block;
+}
+
+.pricing--dawa .pricing__sentence {
+	font-family: 'Homemade Apple', cursive;
+	margin: 0;
+}
+
+.pricing--dawa .pricing__feature-list {
+	margin: 0 0 1.5em;
+	padding: 1em;
+	list-style: none;
+	text-align: center;
+}
+
+.pricing--dawa .pricing__action {
+	border-radius: 30px;
+	font-size: 1.5em;
+	padding: 0.5em 1.5em;
+	font-family: 'Homemade Apple', cursive;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.pricing--dawa .pricing__action:hover,
+.pricing--dawa .pricing__action:focus {
+	color: #fffa5c;
+}
+
+@media screen and (max-width: 40em) {
+	.pricing--dawa .pricing__item {
+		border: 1px solid rgba(255,255,255,0.6);
+		margin: 1em;
+	}
+}

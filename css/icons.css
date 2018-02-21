@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'linearicons';
+	src:url('../fonts/linearicons/linearicons.eot?56qtge');
+	src:url('../fonts/linearicons/linearicons.eot?56qtge#iefix') format('embedded-opentype'),
+		url('../fonts/linearicons/linearicons.woff2?56qtge') format('woff2'),
+		url('../fonts/linearicons/linearicons.ttf?56qtge') format('truetype'),
+		url('../fonts/linearicons/linearicons.woff?56qtge') format('woff'),
+		url('../fonts/linearicons/linearicons.svg?56qtge#linearicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: 'linearicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon--drop::before {
+	content: "\e804";
+}
+
+.icon--chevron-up::before {
+	content: "\e873";
+}
+.icon--chevron-down::before {
+	content: "\e874";
+}
+.icon--chevron-left::before {
+	content: "\e875";
+}
+.icon--chevron-right::before {
+	content: "\e876";
+}
+.icon--arrow-up::before {
+	content: "\e877";
+}
+.icon--arrow-down::before {
+	content: "\e878";
+}
+.icon--arrow-left::before {
+	content: "\e879";
+}
+.icon--arrow-right::before {
+	content: "\e87a";
+}
+
